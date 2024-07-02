@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationCambio2320559.Dinosaurio"
+             Title="Dinosaurio">
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+            <Image
+            Source="dotnet_bot.png"
+            HeightRequest="185"
+            Aspect="AspectFit"
+            SemanticProperties.Description="dot net bot in a race car number eight" />
+            <Label Text="Dijite el nombre del dinosaurio:" TextColor="AliceBlue" FontSize="20" />
+            <Entry x:Name="nombreEntry" Placeholder="" Keyboard="Numeric"/>
+            <Label Text="Dijite el peso [kg] del dinosaurio:" TextColor="AliceBlue" FontSize="20" />
+            <Entry x:Name="pesoEntry" Placeholder="Introduce el peso en kg" Keyboard="Numeric"/>
+            <Label Text="Dijite la altura del peso:" TextColor="AliceBlue" FontSize="20" />
+            <Entry x:Name="alturaEntry" Placeholder="Introduce la altura" Keyboard="Numeric"/>
+            <Button Text="Convertir" TextColor="Red" Clicked="Button_Clicked"/>
+            <Entry x:Name="ConertirEntry" Placeholder="La convercion es...." Keyboard="Numeric"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

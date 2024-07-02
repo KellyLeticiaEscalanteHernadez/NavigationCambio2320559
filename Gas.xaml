@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationCambio2320559.Gas"
+             Title="Gas">
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+            <Image
+            Source="dotnet_bot.png"
+            HeightRequest="185"
+            Aspect="AspectFit"
+            SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label Text="Dijite la cantidad de galones surtidos" TextColor="Black" FontSize="20"/>
+            <Entry x:Name="GalonesEntry" Placeholder="Cantidad de ganones surtido:" Keyboard="Numeric"/>
+
+            <Label Text="El precio fijado en litros es:" TextColor="Black" FontSize="20"/>
+            <Entry  x:Name="litroEntry" Placeholder="El precio fijado en litros es:" Keyboard="Numeric"/>
+
+            <Button Text="Cobrar" TextColor="AliceBlue" Clicked="Button_Clicked"/>
+            <Entry x:Name="CobroEntry" Placeholder="El cobro de la gasolina es:" Keyboard="Numeric"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

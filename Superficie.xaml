@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationCambio2320559.Superficie"
+             Title="Superficie">
+    <ScrollView>
+        <VerticalStackLayout  Padding="30,0" Spacing="25">
+            <Image
+             Source="dotnet_bot.png"
+             HeightRequest="185"
+             Aspect="AspectFit"
+             SemanticProperties.Description="dot net bot in a race car number eight" />
+            <Label Text="Dijite la base del triangulo" FontSize="20" TextColor="Black" />
+            <Entry x:Name="basEntry" Placeholder="Base del triangulo" Keyboard="Numeric" />
+            <Label Text="Dijite la latura del triangulo" FontSize="20" TextColor="Black"  />
+            <Entry x:Name="alturaEntry" Placeholder="Altura del triangulo" Keyboard="Numeric" />
+            <Button Text="El calculo de la superficie es:" TextColor="Violet" Clicked="Button_Clicked" />
+            <Entry x:Name="superficiEntry" Placeholder="Altura del triangulo" Keyboard="Numeric" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
