@@ -9,11 +9,11 @@
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center"/>
-            <Button Text="App Cambio" x:Name="Cambio" Clicked="Cambio_Clicked" />
-            <Button Text="App Dino" x:Name="Dino" Clicked="Dino_Clicked"/>
-            <Button Text="App Gas" x:Name="Gas" Clicked="Gas_Clicked" />
-            <Button Text="App Superficie" x:Name="Superficie" Clicked="Superficie_Clicked"/>
-            <Button Text="App Acderca de nosotros" x:Name="Acerca" Clicked="Acerca_Clicked" />
+            <Button Text="Cambio Cliente" x:Name="Cambio" Clicked="Cambio_Clicked" />
+            <Button Text="Dinosaurio" x:Name="Dino" Clicked="Dino_Clicked"/>
+            <Button Text="Gasolina" x:Name="Gas" Clicked="Gas_Clicked" />
+            <Button Text="Superficie" x:Name="Superficie" Clicked="Superficie_Clicked"/>
+            <Button Text="About" x:Name="Acerca" Clicked="Acerca_Clicked" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
