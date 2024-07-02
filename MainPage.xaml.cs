@@ -1,6 +1,4 @@
-﻿using static Android.Telephony.CarrierConfigManager;
-
-namespace NavigationCambio2320559
+﻿namespace NavigationCambio2320559
 {
     public partial class MainPage : ContentPage
     {
