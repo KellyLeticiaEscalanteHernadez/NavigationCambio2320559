@@ -7,12 +7,10 @@
 		<VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-			<Image
+            <Image
                 Source="cambio.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
-			<Label Text="Costo del artículo:" />
+                WidthRequest="500"/>
+            <Label Text="Costo del artículo:" />
 			<Entry x:Name="costoEntry" Placeholder="Ingrese el costo" Keyboard="Numeric" />
 			<Label Text="Dinero entregado por el cliente:" />
 			<Entry x:Name="entregadoEntry" Placeholder="Ingrese la cantidad entregada" Keyboard="Numeric" />
