@@ -6,10 +6,10 @@
     <ScrollView>
         <VerticalStackLayout  Padding="30,0" Spacing="25">
             <Image
-             Source="piramide.png"
-             HeightRequest="185"
-             Aspect="AspectFit"
-             SemanticProperties.Description="dot net bot in a race car number eight" />
+                 Source="piramide.png"
+                 HeightRequest="185"
+                 Aspect="AspectFit"
+                 SemanticProperties.Description="dot net bot in a race car number eight" />
             <Label Text="Dijite la base del triangulo" FontSize="20" TextColor="Black" />
             <Entry x:Name="basEntry" Placeholder="Base del triangulo" Keyboard="Numeric" />
             <Label Text="Dijite la latura del triangulo" FontSize="20" TextColor="Black"  />
