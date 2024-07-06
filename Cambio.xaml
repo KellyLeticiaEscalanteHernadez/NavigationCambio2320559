@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NavigationCambio2320559.Cambio"
              Title="Cambio">
+    <!--Este es un comentario en colaboracion con Johana-->
 	<ScrollView>
 		<VerticalStackLayout
             Padding="30,0"
